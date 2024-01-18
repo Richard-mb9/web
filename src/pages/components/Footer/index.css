@@ -1,0 +1,17 @@
+.default-footer{
+    border-top: solid 1px #ddd;
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.default-footer div{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-footer {
+    font-size: 12px;
+}

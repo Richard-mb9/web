@@ -1,0 +1,27 @@
+.all-categories-container{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.all-categories-container .text-context{
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        font-family: Roboto, Montserrat, sans-serif;
+        font-weight: 500;
+    }
+
+    h2{
+        font-size: 24px;
+        font-family: Roboto, Montserrat, sans-serif;
+        font-weight: 400;
+        color: rgb(103, 119, 136);;
+    }
+}
+
+.all-categories-container .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

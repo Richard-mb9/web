@@ -1,0 +1,11 @@
+.text-title {
+    font-weight: normal;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}

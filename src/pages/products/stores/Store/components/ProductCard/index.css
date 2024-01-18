@@ -1,0 +1,76 @@
+.product-card {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.product-card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.product-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image img{
+    max-width: 70%;
+    max-height: 70%;
+    
+    
+   
+
+}
+
+.product-info {
+    padding: 16px;
+}
+
+.product-title {
+    text-align: left;
+    font-size: 20px !important;
+    margin: 0;
+    color: black !important;
+}
+
+.price-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.new-price {
+    color: #e53935;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: #e53935;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.installment-section {
+    text-align: left;
+    color: #333;
+    margin-top: 8px;
+    font-size: 15px;
+}
